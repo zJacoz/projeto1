@@ -15,12 +15,14 @@ body * {
 
 img {
     width: 400px;
-    margin: 56px auto auto auto;
+    margin: 100px auto auto auto;
 }
 
 #balls {
     position: fixed;
-    top: 0px;
+    width: 100px;
+    bottom: 0;
+    right: 0;
 }
 
 h1 {
@@ -71,5 +73,9 @@ ul li a {
 
     h1, p {
         width: 450px;
+    }
+
+    #balls {
+        width: 50px;
     }
 }
