@@ -69,13 +69,24 @@ ul li a {
     text-decoration: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
 
     h1, p {
-        width: 450px;
+        width: 300px;
     }
 
     #balls {
         width: 50px;
     }
+}
+
+@media (max-height: 800px) {
+    img {
+        width: 300px;
+        margin: 30px auto auto auto;
+     }
+    
+     h1, p, footer {
+        margin: 30px auto auto auto;
+     }
 }
