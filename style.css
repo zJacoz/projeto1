@@ -40,12 +40,21 @@ footer {
     margin-top: 100px;
 }
 
+#line {
+    width: 568px;
+    height: 0px;
+    margin: auto;
+    border: 1px black solid;
+    opacity: 10%;
+}
+
 ul {
     display: flex;
     justify-content: center;
     gap: 35px;
     font-size: 14px;
     list-style: none;
+    line-height: 45px;
 }
 
 ul li a {
